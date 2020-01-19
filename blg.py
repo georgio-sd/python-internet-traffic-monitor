@@ -11,7 +11,7 @@ date_time = now.strftime("%Y-%m-%d %H:%M:%S")
 import mysql.connector
 from mysql.connector import errorcode
 try:
-    cnx = mysql.connector.connect(user='traff', password='m*****',
+    cnx = mysql.connector.connect(user='traff', password='*****',
                                   host='localhost', database='traff')
 except mysql.connector.Error as err:
     import sys
