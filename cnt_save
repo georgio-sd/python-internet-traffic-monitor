@@ -1,0 +1,4 @@
+#!/bin/sh
+# !!! DO NOT RUN MANUALY !!!
+iptables -L -Z incount -v -x -n >/usr/local/mybilling/tmp/cnt_in
+iptables -L -Z outcount -v -x -n >/usr/local/mybilling/tmp/cnt_out
